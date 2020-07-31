@@ -1,0 +1,55 @@
+# This file was created Sun Jun  7 20:04:42 2020
+# Created by:
+#                       :-) GROMACS - gmx traj, 2019.3 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /media/john/ARCHIVOS/Trabajo_de_grado/SIMS_ALL_FEB/Test_new_order/15STX-DMPG/5/mdstress
+# Command line:
+#   gmx traj -f traj_centered.trr -s step7_LS.tpr -n index_LS.ndx -b 0 -x no -y no -z -com -ox z_memb.xvg
+# gmx traj is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "PROT_MEMB Z"
+ 100000	3.7
+ 110000	3.7
+ 120000	3.7
+ 130000	3.7
+ 140000	3.7
+ 150000	3.7
+ 160000	3.7
+ 170000	3.7
+ 180000	3.7
+ 190000	3.7
+ 200000	3.7
+ 210000	3.7
+ 220000	3.7
+ 230000	3.7
+ 240000	3.7
+ 250000	3.7
+ 260000	3.7
+ 270000	3.7
+ 280000	3.7
+ 290000	3.7
+ 300000	3.7
+ 310000	3.7
+ 320000	3.7
+ 330000	3.7
+ 340000	3.7
+ 350000	3.7
+ 360000	3.7
+ 370000	3.7
+ 380000	3.7
+ 390000	3.7
+ 400000	3.7
